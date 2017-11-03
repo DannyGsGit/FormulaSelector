@@ -71,6 +71,7 @@ generateFormula <- function() {
                                paste(features, collapse = " + "),
                                ")")
 
+      # Insert the text into RStudio
       rstudioapi::insertText(dynamicFormula)
 
     })
@@ -89,6 +90,7 @@ generateFormula <- function() {
   # 300px to ensure we get enough screen space to display the clock.
   viewer <- dialogViewer("Formula Generator")
   runGadget(ui, server, viewer = viewer)
+
 
 }
 
