@@ -1,0 +1,4 @@
+Name: Build & insert formula
+Description: Inserts a graphically built formula at cursor
+Binding: generateFormula
+Interactive: true
