@@ -2,3 +2,9 @@ Name: Build & insert formula
 Description: Inserts a graphically built formula at cursor
 Binding: generateFormula
 Interactive: true
+
+
+Name: Build List
+Description: Inserts a graphically built list at cursor
+Binding: generateList
+Interactive: true
